@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "多线程实验二", "多线程实验二\多线程实验二.vcxproj", "{7147C3C2-CFD8-46BF-A8FF-1329E216EDA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7147C3C2-CFD8-46BF-A8FF-1329E216EDA4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7147C3C2-CFD8-46BF-A8FF-1329E216EDA4}.Debug|Win32.Build.0 = Debug|Win32
+		{7147C3C2-CFD8-46BF-A8FF-1329E216EDA4}.Release|Win32.ActiveCfg = Release|Win32
+		{7147C3C2-CFD8-46BF-A8FF-1329E216EDA4}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

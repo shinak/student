@@ -1,0 +1,24 @@
+﻿生成启动时间为 2018/3/16 20:56:15。
+     1>项目“E:\大学\网络编程\c\客户器端\客户器端\客户器端.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\客户器端.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         E:\大学\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt client.cpp
+         client.cpp
+     1>e:\大学\网络编程\c\客户器端\客户器端\client.cpp(29): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\大学\vc\include\stdio.h(304) : 参见“scanf”的声明
+     1>e:\大学\网络编程\c\客户器端\客户器端\client.cpp(49): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\大学\vc\include\stdio.h(304) : 参见“scanf”的声明
+       Link:
+         E:\大学\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\大学\网络编程\c\客户器端\Debug\客户器端.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\客户器端.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\大学\网络编程\c\客户器端\Debug\客户器端.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\大学\网络编程\c\客户器端\Debug\客户器端.lib" /MACHINE:X86 Debug\client.obj
+         客户器端.vcxproj -> E:\大学\网络编程\c\客户器端\Debug\客户器端.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"E:\大学\网络编程\c\客户器端\Debug\客户器端.exe.manifest" /manifest "Debug\客户器端.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Debug\客户器端.unsuccessfulbuild”。
+         正在对“Debug\客户器端.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\大学\网络编程\c\客户器端\客户器端\客户器端.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.51

@@ -1,0 +1,25 @@
+﻿生成启动时间为 2018/4/15 18:17:00。
+     1>项目“E:\大学\网络编程\c\MFCserver\MFCserver\MFCserver.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\MFCserver.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         E:\大学\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\MFCserver.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt MFCserverDlg.cpp
+         MFCserverDlg.cpp
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         E:\大学\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\大学\网络编程\c\MFCserver\Debug\MFCserver.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST:NO /DEBUG /PDB:"E:\大学\网络编程\c\MFCserver\Debug\MFCserver.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\大学\网络编程\c\MFCserver\Debug\MFCserver.lib" /MACHINE:X86 Debug\MFCserver.res
+         Debug\MFCserver.obj
+         Debug\MFCserverDlg.obj
+         Debug\stdafx.obj
+     1>MFCserver.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/INCREMENTAL:NO”规范)
+         MFCserver.vcxproj -> E:\大学\网络编程\c\MFCserver\Debug\MFCserver.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\MFCserver.unsuccessfulbuild”。
+         正在对“Debug\MFCserver.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\大学\网络编程\c\MFCserver\MFCserver\MFCserver.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:24.83

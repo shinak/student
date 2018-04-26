@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MFCclient", "MFCclient\MFCclient.vcxproj", "{8C70062A-BB45-486B-A8DB-B736EB96EDC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C70062A-BB45-486B-A8DB-B736EB96EDC0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8C70062A-BB45-486B-A8DB-B736EB96EDC0}.Debug|Win32.Build.0 = Debug|Win32
+		{8C70062A-BB45-486B-A8DB-B736EB96EDC0}.Release|Win32.ActiveCfg = Release|Win32
+		{8C70062A-BB45-486B-A8DB-B736EB96EDC0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

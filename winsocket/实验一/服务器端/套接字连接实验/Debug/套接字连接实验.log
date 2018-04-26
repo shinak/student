@@ -1,0 +1,17 @@
+﻿生成启动时间为 2018/3/16 20:56:19。
+     1>项目“E:\大学\网络编程\c\服务器端\套接字连接实验\套接字连接实验.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\服务器端.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+       Link:
+         所有输出均为最新。
+         套接字连接实验.vcxproj -> E:\大学\网络编程\c\服务器端\Debug\服务器端.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\服务器端.unsuccessfulbuild”。
+         正在对“Debug\服务器端.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\大学\网络编程\c\服务器端\套接字连接实验\套接字连接实验.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.09
