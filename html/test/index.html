@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>test</title>
+		<style type="text/css">
+			<link rel = "stylesheet" type = "text/css" href = "new_file.css" />
+		</style>
+		<script type="text/javascript">
+		
+		function validate_required(field,alerttxt)
+		{
+		with (field)
+		  {
+		  if (value==null||value=="")
+		    {alert(alerttxt);return false}
+		  else {return true}
+		  }
+		}
+		
+		function validate_form(thisform)
+		{
+		with (thisform)
+		  {
+		  if (validate_required(email,"Email must be filled out!")==false)
+		    {email.focus();return false}
+		  }
+		}
+		</script>
+	</head>
+	<body>
+		<center>
+			<form action="submitpage.htm" onsubmit="return validate_form(this)" method="post">
+			Email: <input type="text" name="email" size="30">
+			<input type="submit" value="Submit"> 
+			</form>
+		</center>
+		<hr size="10" color="aqua" />
+		<hr size="10" noshade="noshade" />
+		<ruby>
+			大河之水天上来
+				<rt>李白</rt>
+		</ruby>
+		<p><var>x</var>+<var>y</var>=5</p>
+		
+	</body>
+</html>

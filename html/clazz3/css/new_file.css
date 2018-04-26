@@ -1,0 +1,115 @@
+#area{
+	width: 600px;
+	border: 1px solid black;
+	margin: auto;
+}
+#nav{
+	height: 60px;
+	border: 1px solid royalblue;
+}
+#nav ul{
+	padding: 0;
+	margin: 0;
+	background-color: wheat;
+	overflow: hidden;
+	height: 60px;
+}
+#nav ul li{
+	list-style-type: none;
+	float: left;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	position: relative;
+	top: 20%;
+	margin-left: 70px;
+	border-radius: 20px;
+	background-color: cornflowerblue;
+}
+#nav ul li:hover{
+	background-image: linear-gradient(to left,chartreuse,cornflowerblue);
+}
+#search{
+	height: 50px;
+	border: 2px solid red;
+	text-align: center;
+}
+#search input{
+	border: 2px solid indigo;
+}
+#search input[type=text]{
+	width: 400px;
+	height: 44px;
+	border-radius: 20px 0 0 20px;
+}
+#search input[type=submit]{
+	height: 50px;
+	border-radius: 0 20px 20px 0;
+	margin-left: -10px;
+	background-image: linear-gradient(to right,rgb(221,221,221),rgb(79,109,232));
+}
+#box {
+	height: 300px;
+	background-color: #008080;
+}
+#box img{
+	width: 450px;
+	height: 290px;
+}
+#box div{
+	width: 50px;
+	height: 50px;
+	background-color: #CD5C5C;
+	margin: auto;
+	font-size: 40px;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+}
+#box .left,.right{
+	width: 20%;
+}
+#box .left div{
+	border-radius:25px 0 0 25px ;
+}
+#box .right div{
+	border-radius:0 25px 25px 0 ;
+}
+#bottombar{
+	height: 60px;
+	background-color: yellowgreen;
+	padding-left: 50px;
+}
+#bottombar a{
+	border: 1px solid black;
+	width: 80px;
+	height: 30px;
+	display: block;
+	float: left;
+	text-align: center;
+	line-height: 30px;
+	margin-top: 15px;
+	background-image: linear-gradient(to top,purple,gold);
+}
+#bottombar a.first{
+	border-radius: 10px 0 0 10px;
+}
+#bottombar a.last{
+	border-radius: 0 10px 10px 0;
+}
+#bottombar span{
+	display: block;
+	border: 1px solid black;
+	width: 100px;
+	height: 40px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 20px;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 40px;
+}
+#bottombar span:hover{
+	background: greenyellow;
+}

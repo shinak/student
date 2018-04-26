@@ -1,0 +1,119 @@
+body{
+	margin-top: -15px;
+	padding: 0;
+}
+#all{
+	width: 1000px;
+	margin: auto;
+}
+#top{
+	width: 985px;
+	height: 34px;
+	margin: 0;
+	padding-left: 15px;
+	background-color: rgb(200,119,128);
+	text-align: left;
+	line-height: 34px;
+}
+#navFrist{
+	width: 1000px;
+	height: 70px;
+	margin: 0;
+	padding: 0;
+	background-color: rgb(221,221,220);
+}
+#navFrist img{
+	padding-top: 10px;
+}
+#navTwo{
+	height: 32px;
+	margin: 0;
+	padding-left: 15px;
+	background-color: rgb(200,119,128);
+	line-height: 32px;
+}
+#main{
+	margin: 0;
+	padding: 0;
+	background-color: rgb(173,255,47);
+	text-align: center;
+}
+#main .line{
+	width: 800px;
+	height: 60px;
+	margin: auto;
+	padding-top: 15px;
+	background-color: yellow;
+	line-height: 60px;
+}
+#main .line .text,.ipt,.dsp{
+	display: block;
+	float: left;
+}
+#main .line .text{
+	width: 120px;
+	text-align: right;
+	font-size: 15px;
+	font-weight: bold;
+}
+#main .line .text b{
+	color: red;
+}
+#main .line .ipt input{
+	width: 272px;
+	height: 36px;
+}
+#main .line .ipt .user{
+	background-color: rgb(236,236,236);
+	background-image: url(../img/user.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+#main .line .ipt .psd{
+	background-color: rgb(236,236,236);
+	background-image: url(../img/psd.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+#main .line .ipt .phone{
+	background-color: rgb(192,192,192);
+	background-image: url(../img/phone.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+#main .line .dsp{
+	padding-left: 20px;
+	font-size: 10px;
+	font-style: italic;
+	color: gray;
+}
+#main .line .ipt .msgipt{
+	width: 150px;
+}
+#main .line .ipt .msgbtn{
+	width: 120px;
+	background-color: rgb(172,255,212);
+	border-radius: 10px;
+}
+#main .agree{
+	text-align: center;
+}
+#main .agree span{
+	color:blue
+}
+
+
+#main .agree .zcbtn{
+	width: 150px;
+	height: 48px;
+	border-radius: 20px;
+	font-size: 20px;
+	background-color: #C87780;
+	color: white;
+	opacity: 0.9;
+}
+#foot{
+	background-color: rgb(16,128,210);
+	text-align: center;
+	line-height: 40px;
+}

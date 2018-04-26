@@ -1,0 +1,59 @@
+h1{
+	width: 1000px;
+	height: 80px;
+	font-size: 50px;
+	text-align: center;
+	line-height: 80px;
+	margin: auto;
+	background: url(../img/图片1.jpg);
+}
+ul{
+	border:20px dotted skyblue;
+	overflow: hidden;
+	width: 850px;
+	margin: auto;
+	margin-top: 50px;
+	padding: 80px;
+	background: url(../img/背景3.jpg);
+}
+ul img{
+	width: 150px;
+	height: 200px;
+}
+ul li{
+	float: left;
+	width: 150px;
+	text-align: center;
+	color: #00BFFF;
+	padding: 10px;
+	margin: 10px;
+	border: 5px dotted sienna;
+	background-image: url(../img/背景2.jpg);
+	list-style-type: none;
+}
+ul li a
+{
+	text-decoration:none;	
+}
+ul li:nth-child(2n+1)
+{
+	transform: rotate(-40deg);
+}
+ul li:nth-child(2n)
+{
+	transform: rotate(10deg);
+}
+ul li:nth-child(3n)
+{
+	transform: rotate(30deg);
+}
+ul li:nth-child(5n)
+{
+	transform: rotate(-50deg);
+}
+ul li:hover
+{
+	transform: rotate(0deg) scale(2);
+	position: relative;
+	z-index: 1;
+}
