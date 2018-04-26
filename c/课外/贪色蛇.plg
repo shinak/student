@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 贪色蛇 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1.QH-\AppData\Local\Temp\RSPE738.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/贪色蛇.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\大学生活\c\课外\贪色蛇.c"
+]
+Creating command line "cl.exe @"C:\Users\ADMINI~1.QH-\AppData\Local\Temp\RSPE738.tmp"" 
+<h3>Output Window</h3>
+Compiling...
+贪色蛇.c
+e:\大学生活\c\课外\贪色蛇.c(10) : error C2057: expected constant expression
+e:\大学生活\c\课外\贪色蛇.c(10) : error C2466: cannot allocate an array of constant size 0
+e:\大学生活\c\课外\贪色蛇.c(10) : error C2057: expected constant expression
+e:\大学生活\c\课外\贪色蛇.c(10) : error C2466: cannot allocate an array of constant size 0
+e:\大学生活\c\课外\贪色蛇.c(10) : error C2087: '<Unknown>' : missing subscript
+e:\大学生活\c\课外\贪色蛇.c(19) : error C2057: expected constant expression
+e:\大学生活\c\课外\贪色蛇.c(19) : error C2466: cannot allocate an array of constant size 0
+e:\大学生活\c\课外\贪色蛇.c(42) : warning C4034: sizeof returns 0
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+贪色蛇.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

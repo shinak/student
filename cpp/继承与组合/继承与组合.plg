@@ -1,0 +1,29 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 继承与组合 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1.QH-\AppData\Local\Temp\RSP3DF.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/继承与组合.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\大学生活\cpp\继承与组合\1.cpp"
+]
+Creating command line "cl.exe @"C:\Users\ADMINI~1.QH-\AppData\Local\Temp\RSP3DF.tmp"" 
+<h3>Output Window</h3>
+Compiling...
+1.cpp
+E:\大学生活\cpp\继承与组合\1.cpp(41) : error C2629: unexpected 'class professor ('
+E:\大学生活\cpp\继承与组合\1.cpp(41) : error C2334: unexpected token(s) preceding ':'; skipping apparent function body
+E:\大学生活\cpp\继承与组合\1.cpp(47) : error C2447: missing function header (old-style formal list?)
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+1.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
