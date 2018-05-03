@@ -1,0 +1,62 @@
+#include "stdio.h"
+#include "malloc.h"
+
+#define StackSize 100
+
+typedef char SElemType;
+typedef struct {				
+    SElemType *base;
+    SElemType *top;	
+    int stacksize; 					
+} SeqStack;
+int StackEmpty (SeqStack S) {
+
+    return S.top == S.base;
+}
+
+int StackFull (SeqStack S) {
+
+    return (S.top-S.base) == StackSize-1; 
+}
+
+void InitStack ( SeqStack *S) {   
+S->base=(SElemType*)malloc(StackSize*sizeof(ElemType));
+    if(!S->base) exit(1);
+   S.top=S.base;
+S.stacksize =S StackSize; 
+}    
+int Push (SeqStack *S, Stackbase x) {
+
+    if ( StackFull (*S) ) return 0;	
+    (*S)->top++ = x;       
+    return 1;
+}
+
+int Gettop (SeqStack S, Stackbase *x) {
+
+    if ( StackEmpty(S) ) return 0;
+    *x = *(S.top-1);
+    return 1;
+}
+int pop (SeqStack *S, Stackbase *x) {
+
+    if ( StackEmpty(S) ) return 0;
+    *x = *(--(S->top));
+    return 1;
+}
+main(){
+SeqStack q;
+char x,y;
+InitStack(&q);
+do{
+  scanf("%c",&x);
+  Push(&q,x);
+ }while(x!='\n');
+}
+while(!StackEmpty(q))
+{
+   pop(&q,&y);
+   printf("%c ",y);
+}
+
+}

@@ -29,16 +29,18 @@ int main(int argc, char* argv[])
 
 	printf("UDP客户端开启\n");
 
-	printf("请设置聊天时的昵称(以'#'开头):");
+	printf("请设置聊天时的昵称:");
 	client c;
 	c.soc = soc;
 	c.ca = sa;
 	int len = sizeof(c.ca);
 	char recvmsg[100]={0};
 	char sendmsg[100]={0};
+	char sendname[100]="#";//用户名表示符
 	
 	gets(sendmsg);
-	sendto(soc,sendmsg,100,0,(sockaddr*)&sa,sizeof(sa));
+	strcat(sendname,sendmsg);
+	sendto(soc,sendname,100,0,(sockaddr*)&sa,sizeof(sa));
 
 	recvfrom(c.soc,recvmsg,100,0,(sockaddr*)&c.ca,&len);
 	c.i = atoi(recvmsg);
@@ -48,15 +50,22 @@ int main(int argc, char* argv[])
 	while(1)
 	{
 		char sendnum[100]={0};
-		itoa(c.i,sendnum,10);
+		//客户端用户序列转换成字符形式
+		sendnum[0] = c.i / 10000 +48;
+		sendnum[1] = c.i / 1000 +48;
+		sendnum[2] = c.i / 100 +48;
+		sendnum[3] = c.i / 10 +48;
+		sendnum[4] = c.i % 10 +48;
+		sendnum[5] = '\0';
+
 		gets(sendmsg);
-		strcat(sendnum,sendmsg);
+		strcat(sendnum,sendmsg);//将用户序列和消息一并发送给服务端
 		sendto(soc,sendnum,100,0,(sockaddr*)&c.ca,sizeof(c.ca));
 	}
 
 	return 0;
 }
-
+//发送消息多线程函数
 void recvthread(void *p)
 {
 	client c = *((client *)p);

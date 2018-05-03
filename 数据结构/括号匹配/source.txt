@@ -1,0 +1,27 @@
+int match(){
+SeqStack s;
+char ch,a;
+InitStack(s);
+while(1){
+ ch=getchar();
+ if(ch=='\n')
+	 break;
+ if(ch=='(')
+	 Push(s,ch);
+ else
+	 if(ch==')')
+		 if(StackEmpty(s))
+		 {
+			 printf("The match failed\n");
+		     return 0;
+		 }
+	      else
+			  Pop(s,a);
+}
+if(StackEmpty(s))
+{printf("The match success\n");
+return 1;}
+else
+{printf("The match failed\n");
+return 0;}
+}

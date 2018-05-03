@@ -30,16 +30,20 @@ int main(int argc, char* argv[])
 	_beginthread(recvthread,0,&h);
 	
 	char sendmsg[100] = {0};
+	
 	while(1)
 	{
+		char msgupdate[100] = "系统:";//加工消息
 		client *c;
 		int i=1;
 		gets(sendmsg);
+		strcat(msgupdate,sendmsg);
 		while((c = h.find(i)) != NULL)
 		{
-			sendto(soc,sendmsg,100,0,(sockaddr*)&c->ca,sizeof(c->ca));
+			sendto(soc,msgupdate,100,0,(sockaddr*)&c->ca,sizeof(c->ca));
 			i++;
-		}	
+		}
+		msgupdate[0]=NULL;
 	}
 
 
@@ -65,30 +69,31 @@ void recvthread(void *p)
 		c.ca = ca;
 		c.i = 0;
 
-		if(recvmsg[0] == '#')
+		if(recvmsg[0] == '#')//判断是否为用户名
 		{
-			printf("%s已经连接上服务器，可以开始聊天\n",recvmsg);
-			
-			strcpy(c.name,recvmsg);//可优化
-			
+			for(int i=0;i<strlen(recvmsg);i++)
+				recvmsg[i] = recvmsg[i+1];//去掉‘#’
+			strcpy(c.name,recvmsg);
+
+			printf("%s已经连接上服务器，可以开始聊天\n",c.name);
+
 			itoa(h.insert(c),sendmsg,10);
 
-			sendto(soc,sendmsg,strlen(sendmsg)+1,0,(sockaddr*)&ca,sizeof(ca));//发送该客户端为第几个用户
+			sendto(soc,sendmsg,100,0,(sockaddr*)&ca,sizeof(ca));//发送该客户端用户序列
 		}
 		else
 		{
-			char num;
-			num = recvmsg[0];
-			c.i = atoi(&num);//只能接收9个客户端，可优化
+			//只能接收99999个客户端，可优化
+			c.i  = recvmsg[4]-48 +(recvmsg[3] -48)*10+(recvmsg[2] -48)+(recvmsg[1] -48)*1000+(recvmsg[0] -48)*10000;
+			//除去接收消息的用户序列字符
 			for(int i=0;i<100;i++)
-				recvmsg[i] = recvmsg[i+1];
+				recvmsg[i] = recvmsg[i+5];
 			printf("%s说%s\n",h.findClient(c),recvmsg);
 			
 			
 			//转发
 			client *s;
-			int n=1;
-			while((s = h.find(n)) != NULL)
+			for(int n=1;(s = h.find(n)) != NULL;n++)
 			{
 				if(s->i != c.i)
 				{
@@ -99,7 +104,6 @@ void recvthread(void *p)
 					
 					resend[0] = NULL;
 				}
-				n++;
 			}	
 		}
 	}
