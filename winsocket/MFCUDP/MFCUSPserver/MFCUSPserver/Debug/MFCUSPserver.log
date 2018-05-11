@@ -1,0 +1,48 @@
+﻿生成启动时间为 2018/5/5 0:09:03。
+     1>项目“E:\大学\网络编程\c\MFCUSPserver\MFCUSPserver\MFCUSPserver.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\MFCUSPserver.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         E:\大学\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\MFCUSPserver.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt MFCUSPserverDlg.cpp
+         MFCUSPserverDlg.cpp
+     1>e:\大学\网络编程\c\mfcuspserver\mfcuspserver\mfcuspserverdlg.cpp(210): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\大学\网络编程\c\mfcuspserver\mfcuspserver\mfcuspserverdlg.cpp(212): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\大学\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>e:\大学\网络编程\c\mfcuspserver\mfcuspserver\mfcuspserverdlg.cpp(218): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 e:\大学\vc\include\stdlib.h(867) : 参见“itoa”的声明
+     1>e:\大学\网络编程\c\mfcuspserver\mfcuspserver\mfcuspserverdlg.cpp(239): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\大学\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>e:\大学\网络编程\c\mfcuspserver\mfcuspserver\mfcuspserverdlg.cpp(240): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\大学\vc\include\string.h(110) : 参见“strcat”的声明
+     1>e:\大学\网络编程\c\mfcuspserver\mfcuspserver\mfcuspserverdlg.cpp(241): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\大学\vc\include\string.h(110) : 参见“strcat”的声明
+     1>e:\大学\网络编程\c\mfcuspserver\mfcuspserver\mfcuspserverdlg.cpp(314): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\大学\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>e:\大学\网络编程\c\mfcuspserver\mfcuspserver\mfcuspserverdlg.cpp(316): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\大学\vc\include\string.h(110) : 参见“strcat”的声明
+       ResourceCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         E:\大学\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\大学\网络编程\c\MFCUSPserver\Debug\MFCUSPserver.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\MFCUSPserver.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\大学\网络编程\c\MFCUSPserver\Debug\MFCUSPserver.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\大学\网络编程\c\MFCUSPserver\Debug\MFCUSPserver.lib" /MACHINE:X86 Debug\MFCUSPserver.res
+         Debug\MFCUSPserver.exe.embed.manifest.res
+         Debug\MFCUSPserver.obj
+         Debug\MFCUSPserverDlg.obj
+         Debug\SocClient.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\MFCUSPserver.exe.embed.manifest" /manifest Debug\MFCUSPserver.exe.intermediate.manifest "E:\大学\VC\Include\Manifest\dpiaware.manifest"
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         MFCUSPserver.vcxproj -> E:\大学\网络编程\c\MFCUSPserver\Debug\MFCUSPserver.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\MFCUSPserver.unsuccessfulbuild”。
+         正在对“Debug\MFCUSPserver.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\大学\网络编程\c\MFCUSPserver\MFCUSPserver\MFCUSPserver.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:17.17
