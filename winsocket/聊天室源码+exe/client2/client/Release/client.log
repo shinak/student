@@ -1,0 +1,135 @@
+﻿生成启动时间为 2018/6/14 22:32:49。
+     1>项目“E:\大学\网络编程\c\课设\client2\client\client.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\client.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         E:\大学\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\client.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt clientDlg.cpp
+         clientDlg.cpp
+     1>clientDlg.cpp(214): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>clientDlg.cpp(215): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(110) : 参见“strcat”的声明
+     1>clientDlg.cpp(310): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>clientDlg.cpp(316): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>clientDlg.cpp(376): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>clientDlg.cpp(444): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>clientDlg.cpp(459): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>clientDlg.cpp(462): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(110) : 参见“strcat”的声明
+     1>clientDlg.cpp(463): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(110) : 参见“strcat”的声明
+     1>clientDlg.cpp(464): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>clientDlg.cpp(478): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>clientDlg.cpp(479): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(110) : 参见“strcat”的声明
+     1>clientDlg.cpp(482): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>clientDlg.cpp(488): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>clientDlg.cpp(495): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>clientDlg.cpp(509): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>clientDlg.cpp(510): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(110) : 参见“strcat”的声明
+     1>clientDlg.cpp(516): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>clientDlg.cpp(517): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(110) : 参见“strcat”的声明
+     1>clientDlg.cpp(487): warning C4101: “n”: 未引用的局部变量
+     1>clientDlg.cpp(645): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>clientDlg.cpp(680): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>clientDlg.cpp(733): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>clientDlg.cpp(734): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(110) : 参见“strcat”的声明
+     1>clientDlg.cpp(735): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(110) : 参见“strcat”的声明
+     1>clientDlg.cpp(736): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>clientDlg.cpp(738): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>clientDlg.cpp(798): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>clientDlg.cpp(799): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(110) : 参见“strcat”的声明
+     1>clientDlg.cpp(800): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(110) : 参见“strcat”的声明
+     1>clientDlg.cpp(813): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>clientDlg.cpp(816): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>clientDlg.cpp(817): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(110) : 参见“strcat”的声明
+     1>clientDlg.cpp(818): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(110) : 参见“strcat”的声明
+     1>clientDlg.cpp(819): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(110) : 参见“strcat”的声明
+     1>clientDlg.cpp(820): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(110) : 参见“strcat”的声明
+     1>clientDlg.cpp(821): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>clientDlg.cpp(838): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>clientDlg.cpp(863): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>clientDlg.cpp(881): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>clientDlg.cpp(882): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(110) : 参见“strcat”的声明
+     1>clientDlg.cpp(883): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(110) : 参见“strcat”的声明
+     1>clientDlg.cpp(896): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>clientDlg.cpp(899): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>clientDlg.cpp(900): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(110) : 参见“strcat”的声明
+     1>clientDlg.cpp(901): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(110) : 参见“strcat”的声明
+     1>clientDlg.cpp(902): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(110) : 参见“strcat”的声明
+     1>clientDlg.cpp(903): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(110) : 参见“strcat”的声明
+     1>clientDlg.cpp(904): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>clientDlg.cpp(936): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>clientDlg.cpp(956): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>clientDlg.cpp(959): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(110) : 参见“strcat”的声明
+     1>clientDlg.cpp(960): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\string.h(110) : 参见“strcat”的声明
+     1>clientDlg.cpp(961): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\大学\VC\include\stdio.h(234) : 参见“fopen”的声明
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         E:\大学\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\大学\网络编程\c\课设\client2\Release\client.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\client.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\大学\网络编程\c\课设\client2\Release\client.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\大学\网络编程\c\课设\client2\Release\client.lib" /MACHINE:X86 Release\client.res
+         Release\client.obj
+         Release\clientDlg.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         client.vcxproj -> E:\大学\网络编程\c\课设\client2\Release\client.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\大学\网络编程\c\课设\client2\Release\client.exe;#1" /manifest Release\client.exe.intermediate.manifest "E:\大学\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\client.unsuccessfulbuild”。
+         正在对“Release\client.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\大学\网络编程\c\课设\client2\client\client.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:23.92
